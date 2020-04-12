@@ -1,0 +1,14 @@
+.content_section {
+  padding: 1rem 3rem;
+  width: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .content_section {
+    padding: 1rem 1rem;
+  }
+
+  .content_section__header {
+    font-size: 4vh;
+  }
+}
