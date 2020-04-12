@@ -37,7 +37,7 @@
 @media screen and (max-width: 480px) {
   .featured_project__img_bg {
     position: relative;
-    width: 100%;
+    width: 90vw;
     height: auto;
   }
 
