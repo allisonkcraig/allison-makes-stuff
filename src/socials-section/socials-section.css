@@ -1,0 +1,30 @@
+.socials_section {
+  padding-bottom: 100px;
+}
+
+.socials_section__content {
+  display: flex;
+  justify-content: center;
+}
+
+.socials_section__social {
+  width: 50%;
+}
+
+.social_instagram {
+  background-color: aliceblue;
+}
+
+.social_youtube {
+  background-color: lightgray;
+}
+
+@media screen and (max-width: 768px) {
+  .socials_section__content {
+    flex-direction: column;
+  }
+
+  .socials_section__social {
+    width: 100%;
+  }
+}
