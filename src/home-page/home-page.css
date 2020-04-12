@@ -20,6 +20,7 @@
 .homepage__header_subtext {
   margin-top: 0;
   transition: font-size 200ms ease-in-out;
+  font-family: "Raleway", sans-serif;
 }
 
 @media screen and (max-width: 480px) {

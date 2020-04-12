@@ -15,9 +15,9 @@ class HomePage extends React.PureComponent {
       <div className="homepage">
         <div className="homepage__header">
           <h1 className="homepage__header_text">Allison Makes Stuff</h1>
-          <h3 className="homepage__header_subtext">
+          <h4 className="homepage__header_subtext">
             crafts • sewing • shoemaking
-          </h3>
+          </h4>
         </div>
         <div className="homepage__contents">
           <FeaturedProjects />

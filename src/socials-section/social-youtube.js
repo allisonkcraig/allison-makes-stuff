@@ -10,7 +10,7 @@ class SocialYoutube extends React.PureComponent {
   render() {
     return (
       <div className="social_youtube socials_section__social">
-        <h2 className="social_youtube__header">check out videos</h2>
+        <h3 className="social_youtube__header">check out videos</h3>
         <div>
           <iframe
             width="224"

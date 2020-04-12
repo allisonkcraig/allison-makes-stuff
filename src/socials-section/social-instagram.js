@@ -10,7 +10,7 @@ class SocialInstagram extends React.PureComponent {
   render() {
     return (
       <div className="social_instagram socials_section__social">
-        <h2 className="social_instagram__header">check out photos</h2>
+        <h3 className="social_instagram__header">check out photos</h3>
         <div>{/* add photo grid here */}</div>
       </div>
     );
