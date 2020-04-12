@@ -6,11 +6,10 @@
   position: absolute;
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .sticky_footer__comment {
-  color: white;
-  text-decoration: none;
   padding: 0 2rem;
   font-family: "Raleway", sans-serif;
 }

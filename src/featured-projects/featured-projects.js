@@ -10,10 +10,15 @@ class FeaturedProjects extends React.PureComponent {
   }
   renderContent() {
     return (
-      <div class="featured_projects__contents">
-        <FeaturedProject projId="oxfordshoes" />
-        <FeaturedProject projId="oxfordshoes" />
-        <FeaturedProject projId="oxfordshoes" />
+      <div>
+        <div class="featured_projects__contents">
+          <FeaturedProject projId="oxfordshoes" />
+          <FeaturedProject projId="oxfordshoes" />
+          <FeaturedProject projId="oxfordshoes" />
+        </div>
+        <div class="featured_projects__footer">
+          <a href="">see all</a>
+        </div>
       </div>
     );
   }
