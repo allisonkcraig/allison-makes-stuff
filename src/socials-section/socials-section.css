@@ -2,6 +2,11 @@
   padding-bottom: 100px;
 }
 
+.socials_section__content {
+  display: flex;
+  justify-content: center;
+}
+
 .socials_section__social {
   width: 50%;
 }
