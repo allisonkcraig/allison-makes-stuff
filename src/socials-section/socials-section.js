@@ -2,6 +2,7 @@ import React from "react";
 import "./socials-section.css";
 import SocialYoutube from "./social-youtube";
 import SocialInstagram from "./social-instagram";
+import ContentSection from "../content-section/content-section";
 
 class SocialsSection extends React.PureComponent {
   constructor() {
@@ -9,15 +10,21 @@ class SocialsSection extends React.PureComponent {
     this.state = {};
   }
 
+  renderContent() {
+    return (
+      <div className="socials_section__content">
+        <SocialInstagram />
+        <SocialYoutube />
+      </div>
+    );
+  }
+
   render() {
     return (
-      <div className="socials_section content_section">
-        <h2 className="socials_section__header">where you can find me.</h2>
-        <div className="socials_section__content">
-          <SocialInstagram />
-          <SocialYoutube />
-        </div>
-      </div>
+      <ContentSection
+        title="where you can find me."
+        content={this.renderContent}
+      />
     );
   }
 }
